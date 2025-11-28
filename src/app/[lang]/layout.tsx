@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   description: "BotAI combines advanced robotics with state-of-the-art artificial intelligence to revolutionize the workforce.",
 };
 
+export async function generateStaticParams() {
+  return [{ lang: 'en' }, { lang: 'zh' }];
+}
+
 export default async function RootLayout({
   children,
   params,
