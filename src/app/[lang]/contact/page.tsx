@@ -27,7 +27,7 @@ export default async function Contact({ params }: { params: Promise<{ lang: stri
 
                 <div style={{ marginBottom: '2.5rem', textAlign: 'center' }}>
                     <h3 style={{ fontSize: '1.2rem', color: 'var(--primary)', marginBottom: '0.5rem', textTransform: 'uppercase', letterSpacing: '1px' }}>{dict.contact.headquarters}</h3>
-                    <p style={{ fontSize: '1.1rem', color: '#fff', lineHeight: 1.6 }}>
+                    <p style={{ fontSize: '1.1rem', color: 'var(--foreground)', lineHeight: 1.6 }}>
                         1401 21st ST #5978<br />
                         Sacramento, CA 95811
                     </p>
@@ -35,7 +35,7 @@ export default async function Contact({ params }: { params: Promise<{ lang: stri
 
                 <div style={{ marginBottom: '2.5rem', textAlign: 'center' }}>
                     <h3 style={{ fontSize: '1.2rem', color: 'var(--secondary)', marginBottom: '0.5rem', textTransform: 'uppercase', letterSpacing: '1px' }}>{dict.contact.email_us}</h3>
-                    <a href="mailto:contactus@botai.bot" style={{ fontSize: '1.5rem', color: '#fff', textDecoration: 'none', borderBottom: '1px solid var(--secondary)', paddingBottom: '2px' }}>
+                    <a href="mailto:contactus@botai.bot" style={{ fontSize: '1.5rem', color: 'var(--foreground)', textDecoration: 'none', borderBottom: '1px solid var(--secondary)', paddingBottom: '2px' }}>
                         contactus@botai.bot
                     </a>
                 </div>
@@ -45,11 +45,11 @@ export default async function Contact({ params }: { params: Promise<{ lang: stri
                         type="text"
                         placeholder={dict.contact.name_placeholder}
                         style={{
-                            background: 'rgba(255,255,255,0.05)',
-                            border: '1px solid rgba(255,255,255,0.1)',
+                            background: 'var(--glass)',
+                            border: '1px solid var(--glass-border)',
                             padding: '1rem',
                             borderRadius: '8px',
-                            color: '#fff',
+                            color: 'var(--foreground)',
                             fontSize: '1rem',
                             outline: 'none'
                         }}
@@ -58,11 +58,11 @@ export default async function Contact({ params }: { params: Promise<{ lang: stri
                         type="email"
                         placeholder={dict.contact.email_placeholder}
                         style={{
-                            background: 'rgba(255,255,255,0.05)',
-                            border: '1px solid rgba(255,255,255,0.1)',
+                            background: 'var(--glass)',
+                            border: '1px solid var(--glass-border)',
                             padding: '1rem',
                             borderRadius: '8px',
-                            color: '#fff',
+                            color: 'var(--foreground)',
                             fontSize: '1rem',
                             outline: 'none'
                         }}
@@ -71,11 +71,11 @@ export default async function Contact({ params }: { params: Promise<{ lang: stri
                         placeholder={dict.contact.message_placeholder}
                         rows={4}
                         style={{
-                            background: 'rgba(255,255,255,0.05)',
-                            border: '1px solid rgba(255,255,255,0.1)',
+                            background: 'var(--glass)',
+                            border: '1px solid var(--glass-border)',
                             padding: '1rem',
                             borderRadius: '8px',
-                            color: '#fff',
+                            color: 'var(--foreground)',
                             fontSize: '1rem',
                             outline: 'none',
                             resize: 'vertical'

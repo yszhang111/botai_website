@@ -13,10 +13,10 @@ export default async function About({ params }: { params: Promise<{ lang: string
                 </h1>
 
                 <div className="glass-panel" style={{ padding: '2rem', marginBottom: '3rem' }}>
-                    <p style={{ fontSize: '1.2rem', lineHeight: 1.8, color: '#ccc', marginBottom: '1.5rem' }}>
+                    <p style={{ fontSize: '1.2rem', lineHeight: 1.8, color: 'var(--text-muted)', marginBottom: '1.5rem' }}>
                         {dict.about.p1}
                     </p>
-                    <p style={{ fontSize: '1.2rem', lineHeight: 1.8, color: '#ccc' }}>
+                    <p style={{ fontSize: '1.2rem', lineHeight: 1.8, color: 'var(--text-muted)' }}>
                         {dict.about.p2}
                     </p>
                 </div>
@@ -24,13 +24,13 @@ export default async function About({ params }: { params: Promise<{ lang: string
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem' }}>
                     <div className="glass-panel" style={{ padding: '2rem' }}>
                         <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem', color: 'var(--primary)' }}>{dict.about.bot_title}</h3>
-                        <p style={{ color: '#888', lineHeight: 1.6 }}>
+                        <p style={{ color: 'var(--text-muted)', lineHeight: 1.6 }}>
                             {dict.about.bot_desc}
                         </p>
                     </div>
                     <div className="glass-panel" style={{ padding: '2rem' }}>
                         <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem', color: 'var(--secondary)' }}>{dict.about.ai_title}</h3>
-                        <p style={{ color: '#888', lineHeight: 1.6 }}>
+                        <p style={{ color: 'var(--text-muted)', lineHeight: 1.6 }}>
                             {dict.about.ai_desc}
                         </p>
                     </div>

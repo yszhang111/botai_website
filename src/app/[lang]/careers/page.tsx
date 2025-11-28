@@ -11,7 +11,7 @@ export default async function Careers({ params }: { params: Promise<{ lang: stri
                 <h1 style={{ fontSize: '3.5rem', fontWeight: 800, marginBottom: '1rem' }}>
                     {dict.careers.title}
                 </h1>
-                <p style={{ fontSize: '1.5rem', color: '#888', marginBottom: '4rem' }}>
+                <p style={{ fontSize: '1.5rem', color: 'var(--text-muted)', marginBottom: '4rem' }}>
                     {dict.careers.subtitle}
                 </p>
 
@@ -19,25 +19,25 @@ export default async function Careers({ params }: { params: Promise<{ lang: stri
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem', marginBottom: '4rem' }}>
                     <div className="glass-panel" style={{ padding: '1.5rem' }}>
                         <h3 style={{ color: 'var(--primary)', marginBottom: '0.5rem' }}>{dict.careers.value1_title}</h3>
-                        <p style={{ fontSize: '0.9rem', color: '#ccc' }}>{dict.careers.value1_desc}</p>
+                        <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>{dict.careers.value1_desc}</p>
                     </div>
                     <div className="glass-panel" style={{ padding: '1.5rem' }}>
                         <h3 style={{ color: 'var(--secondary)', marginBottom: '0.5rem' }}>{dict.careers.value2_title}</h3>
-                        <p style={{ fontSize: '0.9rem', color: '#ccc' }}>{dict.careers.value2_desc}</p>
+                        <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>{dict.careers.value2_desc}</p>
                     </div>
                     <div className="glass-panel" style={{ padding: '1.5rem' }}>
-                        <h3 style={{ color: '#fff', marginBottom: '0.5rem' }}>{dict.careers.value3_title}</h3>
-                        <p style={{ fontSize: '0.9rem', color: '#ccc' }}>{dict.careers.value3_desc}</p>
+                        <h3 style={{ color: 'var(--foreground)', marginBottom: '0.5rem' }}>{dict.careers.value3_title}</h3>
+                        <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>{dict.careers.value3_desc}</p>
                     </div>
                 </div>
 
                 {/* No Openings Message */}
-                <div className="glass-panel" style={{ padding: '3rem', textAlign: 'center', border: '1px solid rgba(255,255,255,0.1)' }}>
+                <div className="glass-panel" style={{ padding: '3rem', textAlign: 'center', border: '1px solid var(--glass-border)' }}>
                     <div style={{
                         width: '60px',
                         height: '60px',
                         borderRadius: '50%',
-                        background: 'rgba(255,255,255,0.1)',
+                        background: 'var(--glass-border)',
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
@@ -50,7 +50,7 @@ export default async function Careers({ params }: { params: Promise<{ lang: stri
                         </svg>
                     </div>
                     <h2 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>{dict.careers.no_openings_title}</h2>
-                    <p style={{ color: '#888', lineHeight: 1.6, maxWidth: '500px', margin: '0 auto' }}>
+                    <p style={{ color: 'var(--text-muted)', lineHeight: 1.6, maxWidth: '500px', margin: '0 auto' }}>
                         {dict.careers.no_openings_desc}
                     </p>
                 </div>

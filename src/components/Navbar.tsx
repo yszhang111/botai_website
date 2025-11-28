@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import { ThemeToggle } from "./ThemeToggle";
 
 const Navbar = ({ lang, dict }: { lang: string, dict: any }) => {
     return (
@@ -11,7 +12,8 @@ const Navbar = ({ lang, dict }: { lang: string, dict: any }) => {
             zIndex: 100,
             padding: '1.5rem 0',
             backdropFilter: 'blur(10px)',
-            borderBottom: '1px solid rgba(255,255,255,0.05)'
+            borderBottom: '1px solid var(--glass-border)',
+            background: 'var(--glass)'
         }}>
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <Link href={`/${lang}`} style={{ fontSize: '1.5rem', fontWeight: 800, letterSpacing: '1px' }}>
@@ -32,21 +34,26 @@ const Navbar = ({ lang, dict }: { lang: string, dict: any }) => {
                         {dict.navbar.contact}
                     </Link>
 
-                    {/* Language Switcher */}
-                    <div style={{ display: 'flex', gap: '0.5rem', marginLeft: '1rem' }}>
-                        <Link href="/en" style={{
-                            fontSize: '0.8rem',
-                            fontWeight: lang === 'en' ? 700 : 400,
-                            color: lang === 'en' ? 'var(--primary)' : '#888',
-                            cursor: 'pointer'
-                        }}>EN</Link>
-                        <span style={{ color: '#444' }}>|</span>
-                        <Link href="/zh" style={{
-                            fontSize: '0.8rem',
-                            fontWeight: lang === 'zh' ? 700 : 400,
-                            color: lang === 'zh' ? 'var(--primary)' : '#888',
-                            cursor: 'pointer'
-                        }}>中文</Link>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginLeft: '1rem' }}>
+                        {/* Language Switcher */}
+                        <div style={{ display: 'flex', gap: '0.5rem' }}>
+                            <Link href="/en" style={{
+                                fontSize: '0.8rem',
+                                fontWeight: lang === 'en' ? 700 : 400,
+                                color: lang === 'en' ? 'var(--primary)' : 'var(--foreground)',
+                                cursor: 'pointer'
+                            }}>EN</Link>
+                            <span style={{ color: 'var(--foreground)', opacity: 0.5 }}>|</span>
+                            <Link href="/zh" style={{
+                                fontSize: '0.8rem',
+                                fontWeight: lang === 'zh' ? 700 : 400,
+                                color: lang === 'zh' ? 'var(--primary)' : 'var(--foreground)',
+                                cursor: 'pointer'
+                            }}>中文</Link>
+                        </div>
+
+                        {/* Theme Toggle */}
+                        <ThemeToggle />
                     </div>
                 </div>
             </div>

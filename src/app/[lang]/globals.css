@@ -1,4 +1,19 @@
 :root {
+    --background: #ffffff;
+    --foreground: #050505;
+    --primary: #00bcd4;
+    /* Darker Cyan for light mode contrast */
+    --secondary: #9c27b0;
+    /* Darker Purple for light mode contrast */
+    --accent: #f5f5f5;
+    --glass: rgba(0, 0, 0, 0.05);
+    --glass-border: rgba(0, 0, 0, 0.1);
+    --text-muted: #555555;
+    /* Darker gray for light mode */
+    --font-sans: 'Inter', sans-serif;
+}
+
+.dark {
     --background: #050505;
     --foreground: #ffffff;
     --primary: #00f3ff;
@@ -8,7 +23,8 @@
     --accent: #2d2d2d;
     --glass: rgba(255, 255, 255, 0.05);
     --glass-border: rgba(255, 255, 255, 0.1);
-    --font-sans: 'Inter', sans-serif;
+    --text-muted: #888888;
+    /* Lighter gray for dark mode */
 }
 
 * {

@@ -38,7 +38,7 @@ const Hero = ({ dict, lang }: { dict: any, lang: string }) => {
                         <span style={{ fontSize: '3.5rem', opacity: 0.8 }}>{dict.hero.title_part3}</span>
                     </h1>
 
-                    <p style={{ fontSize: '1.25rem', color: '#888', marginBottom: '2.5rem', maxWidth: '500px', lineHeight: 1.6 }}>
+                    <p style={{ fontSize: '1.25rem', color: 'var(--text-muted)', marginBottom: '2.5rem', maxWidth: '500px', lineHeight: 1.6 }}>
                         {dict.hero.description}
                     </p>
 
@@ -72,7 +72,7 @@ const Hero = ({ dict, lang }: { dict: any, lang: string }) => {
                         flexDirection: 'column',
                         justifyContent: 'center',
                         alignItems: 'center',
-                        border: '1px solid rgba(255,255,255,0.1)'
+                        border: '1px solid var(--glass-border)'
                     }}>
                         {/* Abstract Bot Representation */}
                         <div className="animate-glow" style={{
@@ -86,7 +86,7 @@ const Hero = ({ dict, lang }: { dict: any, lang: string }) => {
                             <div style={{
                                 position: 'absolute',
                                 inset: '2px',
-                                background: '#050505',
+                                background: 'var(--background)',
                                 borderRadius: '50%',
                                 display: 'flex',
                                 alignItems: 'center',
@@ -104,7 +104,7 @@ const Hero = ({ dict, lang }: { dict: any, lang: string }) => {
 
                         <div style={{ textAlign: 'center' }}>
                             <h3 style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>{dict.hero.neural_core}</h3>
-                            <p style={{ color: '#666', fontSize: '0.9rem' }}>{dict.hero.status}: <span style={{ color: '#0f0' }}>{dict.hero.online}</span></p>
+                            <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>{dict.hero.status}: <span style={{ color: '#0f0' }}>{dict.hero.online}</span></p>
                         </div>
 
                         {/* Floating Elements */}
@@ -118,7 +118,7 @@ const Hero = ({ dict, lang }: { dict: any, lang: string }) => {
                             <div style={{ height: '4px', width: '100%', background: '#333', borderRadius: '2px', marginBottom: '8px' }}>
                                 <div style={{ height: '100%', width: '70%', background: 'var(--primary)', borderRadius: '2px' }} />
                             </div>
-                            <p style={{ fontSize: '0.7rem', color: '#888' }}>{dict.hero.processing}</p>
+                            <p style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>{dict.hero.processing}</p>
                         </div>
 
                         <div className="glass-panel" style={{
@@ -128,7 +128,7 @@ const Hero = ({ dict, lang }: { dict: any, lang: string }) => {
                             padding: '1rem',
                             width: '140px'
                         }}>
-                            <p style={{ fontSize: '0.7rem', color: '#888', marginBottom: '4px' }}>{dict.hero.efficiency}</p>
+                            <p style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginBottom: '4px' }}>{dict.hero.efficiency}</p>
                             <h4 style={{ color: 'var(--secondary)' }}>98.4%</h4>
                         </div>
 
