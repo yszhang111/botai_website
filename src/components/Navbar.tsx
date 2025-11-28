@@ -25,6 +25,9 @@ const Navbar = ({ lang, dict }: { lang: string, dict: any }) => {
                     <Link href={`/${lang}/about`} className="nav-link" style={{ fontSize: '0.9rem', fontWeight: 500, opacity: 0.8, transition: 'opacity 0.3s' }}>
                         {dict.navbar.about}
                     </Link>
+                    <Link href={`/${lang}/careers`} className="nav-link" style={{ fontSize: '0.9rem', fontWeight: 500, opacity: 0.8, transition: 'opacity 0.3s' }}>
+                        {dict.navbar.careers}
+                    </Link>
                     <Link href={`/${lang}/contact`} className="nav-link" style={{ fontSize: '0.9rem', fontWeight: 500, opacity: 0.8, transition: 'opacity 0.3s' }}>
                         {dict.navbar.contact}
                     </Link>

@@ -2,6 +2,7 @@
     "navbar": {
         "home": "Home",
         "about": "About",
+        "careers": "Careers",
         "contact": "Contact"
     },
     "hero": {
@@ -26,6 +27,19 @@
         "bot_desc": "Advanced robotics integration capable of executing complex physical tasks. From warehouse logistics to precision manufacturing, our systems are designed for the real world.",
         "ai_title": "The Brain (AI)",
         "ai_desc": "State-of-the-art neural networks that provide perception, reasoning, and decision-making capabilities. Our AI doesn't just follow instructions; it solves problems."
+    },
+    "careers": {
+        "title": "Join the Revolution",
+        "subtitle": "Build the future with us.",
+        "no_openings_title": "No Open Positions Currently",
+        "no_openings_desc": "We are not actively hiring at the moment, but we are always on the lookout for exceptional talent. If you believe you can contribute to our mission, check back soon or follow us for updates.",
+        "values_title": "Why BotAI?",
+        "value1_title": "Innovation",
+        "value1_desc": "Work on the cutting edge of robotics and AI.",
+        "value2_title": "Impact",
+        "value2_desc": "Create technology that changes the physical world.",
+        "value3_title": "Growth",
+        "value3_desc": "Grow with a team of world-class engineers and researchers."
     },
     "contact": {
         "title": "Get in Touch",

@@ -2,6 +2,7 @@
     "navbar": {
         "home": "首页",
         "about": "关于我们",
+        "careers": "加入我们",
         "contact": "联系我们"
     },
     "hero": {
@@ -26,6 +27,19 @@
         "bot_desc": "能够执行复杂物理任务的高级机器人集成。从仓库物流到精密制造，我们的系统专为现实世界设计。",
         "ai_title": "大脑 (AI)",
         "ai_desc": "提供感知、推理和决策能力的最先进神经网络。我们的 AI 不仅仅听从指令；它解决问题。"
+    },
+    "careers": {
+        "title": "加入变革",
+        "subtitle": "与我们共建未来。",
+        "no_openings_title": "暂无开放职位",
+        "no_openings_desc": "我们目前没有正在招聘的职位，但我们一直在寻找杰出的人才。如果您相信自己能为我们的使命做出贡献，请随时关注我们的更新。",
+        "values_title": "为什么选择 BotAI？",
+        "value1_title": "创新",
+        "value1_desc": "致力于机器人和人工智能的最前沿。",
+        "value2_title": "影响",
+        "value2_desc": "创造改变物理世界的技术。",
+        "value3_title": "成长",
+        "value3_desc": "与世界一流的工程师和研究人员团队共同成长。"
     },
     "contact": {
         "title": "保持联系",
