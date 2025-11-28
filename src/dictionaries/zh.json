@@ -1,0 +1,39 @@
+{
+    "navbar": {
+        "home": "首页",
+        "about": "关于我们",
+        "contact": "联系我们"
+    },
+    "hero": {
+        "subtitle": "重新定义智能",
+        "title_part1": "Bot",
+        "title_part2": "AI",
+        "title_part3": "= 未来",
+        "description": "我们连接数字智能与物理行动。BotAI 为明天的机器构建大脑。",
+        "explore": "探索解决方案",
+        "watch": "观看演示",
+        "neural_core": "神经核心 v1.0",
+        "status": "状态",
+        "online": "在线",
+        "processing": "处理中...",
+        "efficiency": "效率"
+    },
+    "about": {
+        "title": "我们是 BotAI",
+        "p1": "在 BotAI，我们相信未来属于物理与数字智能的融合。我们的名字就是我们的使命：Bot + AI。我们不仅仅构建软件；我们构建驱动下一代机器人和自主代理的认知引擎。",
+        "p2": "基于自动化应是智能、适应性强且无缝的原则，我们正在开创让机器以前所未有的精度理解、学习并与世界互动的解决方案。",
+        "bot_title": "身体 (Bot)",
+        "bot_desc": "能够执行复杂物理任务的高级机器人集成。从仓库物流到精密制造，我们的系统专为现实世界设计。",
+        "ai_title": "大脑 (AI)",
+        "ai_desc": "提供感知、推理和决策能力的最先进神经网络。我们的 AI 不仅仅听从指令；它解决问题。"
+    },
+    "contact": {
+        "title": "保持联系",
+        "headquarters": "总部",
+        "email_us": "发邮件给我们",
+        "name_placeholder": "您的姓名",
+        "email_placeholder": "您的邮箱",
+        "message_placeholder": "留言",
+        "send": "发送信息"
+    }
+}

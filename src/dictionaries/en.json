@@ -1,0 +1,39 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "contact": "Contact"
+    },
+    "hero": {
+        "subtitle": "REDEFINING INTELLIGENCE",
+        "title_part1": "Bot",
+        "title_part2": "AI",
+        "title_part3": "= The Future",
+        "description": "We bridge the gap between digital intelligence and physical action. BotAI builds the brains for the machines of tomorrow.",
+        "explore": "Explore Solutions",
+        "watch": "Watch Demo",
+        "neural_core": "Neural Core v1.0",
+        "status": "Status",
+        "online": "Online",
+        "processing": "Processing...",
+        "efficiency": "Efficiency"
+    },
+    "about": {
+        "title": "We Are BotAI",
+        "p1": "At BotAI, we believe the future belongs to the convergence of physical and digital intelligence. Our name is our mission: Bot + AI. We don't just build software; we build the cognitive engines that power the next generation of robotics and autonomous agents.",
+        "p2": "Founded on the principle that automation should be intelligent, adaptive, and seamless, we are pioneering solutions that allow machines to understand, learn, and interact with the world around them with unprecedented precision.",
+        "bot_title": "The Body (Bot)",
+        "bot_desc": "Advanced robotics integration capable of executing complex physical tasks. From warehouse logistics to precision manufacturing, our systems are designed for the real world.",
+        "ai_title": "The Brain (AI)",
+        "ai_desc": "State-of-the-art neural networks that provide perception, reasoning, and decision-making capabilities. Our AI doesn't just follow instructions; it solves problems."
+    },
+    "contact": {
+        "title": "Get in Touch",
+        "headquarters": "Headquarters",
+        "email_us": "Email Us",
+        "name_placeholder": "Your Name",
+        "email_placeholder": "Your Email",
+        "message_placeholder": "Message",
+        "send": "Send Message"
+    }
+}
