@@ -1,6 +1,7 @@
+import Link from 'next/link';
 import React from 'react';
 
-const Hero = ({ dict }: { dict: any }) => {
+const Hero = ({ dict, lang }: { dict: any, lang: string }) => {
     return (
         <section className="container" style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', position: 'relative', overflow: 'hidden' }}>
 
@@ -42,9 +43,11 @@ const Hero = ({ dict }: { dict: any }) => {
                     </p>
 
                     <div style={{ display: 'flex', gap: '1.5rem' }}>
-                        <button className="btn-primary">
-                            {dict.hero.explore}
-                        </button>
+                        <Link href={`/${lang}/about`}>
+                            <button className="btn-primary">
+                                {dict.hero.explore}
+                            </button>
+                        </Link>
                         {/* <button style={{ 
               background: 'transparent', 
               border: 'none', 

@@ -6,7 +6,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
   const dict = await getDictionary(lang);
   return (
     <main>
-      <Hero dict={dict} />
+      <Hero dict={dict} lang={lang} />
     </main>
   );
 }
