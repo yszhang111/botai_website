@@ -70,7 +70,7 @@ export default async function RootLayout({
                     opacity: 0.7,
                   }}
                 >
-                  © 2025 Botai IT Consulting LLC. All rights reserved.
+                  © 2026 Botai IT Consulting LLC. All rights reserved.
                 </div>
               </div>
 
